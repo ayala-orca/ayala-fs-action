@@ -43,7 +43,7 @@ function extractVulnerability(controlResults, annotations) {
             endLine: 1,
             priority: vulnerability["severity"],
             status: vulnerability.status_summary["status"],
-            title: `${vulnerability["pkg_name"] (${vulnerability["vulnerability_id"]})`,
+            title: `${vulnerability["pkg_name"]} (${vulnerability["vulnerability_id"]})`,
             details: getVulnDetails(controlResults, vulnerability),
         });
     }
