@@ -213,7 +213,7 @@
           "kind": "fail",
           "message": {
             "text": "",
-            "markdown": "\u003cspan style=\"color:red\"\u003e (CVE-2022-36359)\u003c/span\u003e\n\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
+            "markdown": "<span style=\"color:red\"> (CVE-2022-36359)</span>\n\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
           },
           "locations": [
             {
