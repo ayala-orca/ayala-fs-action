@@ -1,0 +1,513 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Orca Shift-Left Security",
+          "version": "OrcaScanCli/testing",
+          "rules": [
+            {
+              "id": "CVE-2022-36359-poetry",
+              "name": "poetry (CVE-2022-36359)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-36359) at samples/poetry.lock installed version 3.2.14"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-41323-poetry",
+              "name": "poetry (CVE-2022-41323)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-41323) at samples/poetry.lock installed version 3.2.14"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2023-23969-poetry",
+              "name": "poetry (CVE-2023-23969)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2023-23969) at samples/poetry.lock installed version 3.2.14"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            },
+            {
+              "id": "CVE-2022-30034-poetry",
+              "name": "poetry (CVE-2022-30034)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-30034) at samples/poetry.lock installed version 1.0.0"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-40899-poetry",
+              "name": "poetry (CVE-2022-40899)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-40899) at samples/poetry.lock installed version 0.18.2"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-21797-poetry",
+              "name": "poetry (CVE-2022-21797)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-21797) at samples/poetry.lock installed version 1.1.0"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-2309-poetry",
+              "name": "poetry (CVE-2022-2309)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-2309) at samples/poetry.lock installed version 4.8.0"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-40023-poetry",
+              "name": "poetry (CVE-2022-40023)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-40023) at samples/poetry.lock installed version 1.2.0"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-45198-poetry",
+              "name": "poetry (CVE-2022-45198)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-45198) at samples/poetry.lock installed version 9.0.1"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-45199-poetry",
+              "name": "poetry (CVE-2022-45199)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-45199) at samples/poetry.lock installed version 9.0.1"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-29217-poetry",
+              "name": "poetry (CVE-2022-29217)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-29217) at samples/poetry.lock installed version 2.1.0"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-40897-poetry",
+              "name": "poetry (CVE-2022-40897)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-40897) at samples/poetry.lock installed version 59.6.0"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-31116-poetry",
+              "name": "poetry (CVE-2022-31116)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-31116) at samples/poetry.lock installed version 5.1.0"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2022-29361-poetry",
+              "name": "poetry (CVE-2022-29361)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2022-29361) at samples/poetry.lock installed version 2.0.3"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "CVE-2023-25577-poetry",
+              "name": "poetry (CVE-2023-25577)",
+              "shortDescription": {
+                "text": "poetry"
+              },
+              "fullDescription": {
+                "text": "poetry vulnerability (CVE-2023-25577) at samples/poetry.lock installed version 2.0.3"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CVE-2022-36359-poetry",
+          "ruleIndex": 0,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-41323-poetry",
+          "ruleIndex": 1,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:3.2.16, 4.0.8, 4.1.2"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-23969-poetry",
+          "ruleIndex": 2,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:4.1.6, 4.0.9, 3.2.17"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-30034-poetry",
+          "ruleIndex": 3,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS2 Score: 7.5\nCVSS3 Score: 8.6\nInstalled version: 1.0.0\nFixed version:1.2.0"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-40899-poetry",
+          "ruleIndex": 4,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 0.18.2\nFixed version:0.18.3"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-21797-poetry",
+          "ruleIndex": 5,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: CRITICAL\nCVSS3 Score: 9.8\nInstalled version: 1.1.0\nFixed version:1.2.0"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-2309-poetry",
+          "ruleIndex": 6,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 4.8.0\nFixed version:4.9.1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-40023-poetry",
+          "ruleIndex": 7,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 1.2.0\nFixed version:1.2.2"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-45198-poetry",
+          "ruleIndex": 8,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 9.0.1\nFixed version:9.2.0"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-45199-poetry",
+          "ruleIndex": 9,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 9.0.1\nFixed version:9.3.0"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-29217-poetry",
+          "ruleIndex": 10,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 2.1.0\nFixed version:2.4.0"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-40897-poetry",
+          "ruleIndex": 11,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 5.9\nInstalled version: 59.6.0\nFixed version:65.5.1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-31116-poetry",
+          "ruleIndex": 12,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 5.1.0\nFixed version:5.4.0"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2022-29361-poetry",
+          "ruleIndex": 13,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: CRITICAL\nCVSS2 Score: 7.5\nCVSS3 Score: 9.8\nInstalled version: 2.0.3\nFixed version:2.1.1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-25577-poetry",
+          "ruleIndex": 14,
+          "kind": "fail",
+          "message": {
+            "text": "Severity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 2.0.3\nFixed version:2.2.3"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
