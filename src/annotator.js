@@ -26,7 +26,7 @@ function extractSecretFinding(secretResults, annotations) {
             endLine: finding.position["end_line"],
             priority: secretResults["priority"],
             status: secretResults["status"],
-            title: `[${secretResults["priority"]}] controlResults.catalog_control["title"]`,
+            title: `[${secretResults["priority"]}] ${secretResults.catalog_control["title"]}`,
             details: getSecretDetails(secretResults),
         });
     }
@@ -43,7 +43,7 @@ function extractVulnerability(results, annotations) {
             priority: vulnerability["severity"],
             status: vulnerability.status_summary["status"],
             title: `${vulnerability["pkg_name"]} (${vulnerability["vulnerability_id"]})`,
-            details: getVulnDetails(results, vulnerability),
+            details: getVulnDetails(vulnerability),
         });
     }
 }
