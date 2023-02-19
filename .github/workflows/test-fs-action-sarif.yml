@@ -1,4 +1,4 @@
-name: Test Orca FS action
+name: Test Orca FS action - Sarif
 
 on:
   workflow_dispatch:
