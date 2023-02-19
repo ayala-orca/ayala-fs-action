@@ -212,7 +212,7 @@
           "ruleIndex": 0,
           "kind": "fail",
           "message": {
-            "text": "",
+            "text": "django (CVE-2022-36359)\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7",
             "markdown": "django (CVE-2022-36359)\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
           },
           "locations": [
