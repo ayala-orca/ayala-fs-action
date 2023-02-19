@@ -19,7 +19,7 @@ jobs:
           path:
             "test"
           format:
-            "json"
+            "sarif"
           output:
             "results/"
           console_output: "table"
