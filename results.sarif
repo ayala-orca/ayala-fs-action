@@ -213,7 +213,7 @@
           "kind": "fail",
           "message": {
             "text": "",
-            "markdown": "django (CVE-2022-36359)\n\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
+            "markdown": "django (CVE-2022-36359)\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
           },
           "locations": [
             {
@@ -234,7 +234,7 @@
           "kind": "fail",
           "message": {
             "text": "",
-            "markdown": "django (CVE-2022-41323)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:3.2.16, 4.0.8, 4.1.2"
+            "markdown": "django (CVE-2022-41323)\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:3.2.16, 4.0.8, 4.1.2"
           },
           "locations": [
             {
