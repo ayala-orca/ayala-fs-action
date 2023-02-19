@@ -212,8 +212,7 @@
           "ruleIndex": 0,
           "kind": "fail",
           "message": {
-            "text": "django (CVE-2022-36359)\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7",
-            "markdown": "django (CVE-2022-36359)\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
+            "text": "django (CVE-2022-36359)\n\nSeverity: HIGH\nCVSS3 Score: 8.8\nInstalled version: 3.2.14\nFixed version:3.2.15, 4.0.7"
           },
           "locations": [
             {
@@ -233,8 +232,7 @@
           "ruleIndex": 1,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "django (CVE-2022-41323)\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:3.2.16, 4.0.8, 4.1.2"
+            "text": "django (CVE-2022-41323)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:3.2.16, 4.0.8, 4.1.2"
           },
           "locations": [
             {
@@ -254,8 +252,7 @@
           "ruleIndex": 2,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "django (CVE-2023-23969)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:4.1.6, 4.0.9, 3.2.17"
+            "text": "django (CVE-2023-23969)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 3.2.14\nFixed version:4.1.6, 4.0.9, 3.2.17"
           },
           "locations": [
             {
@@ -275,8 +272,7 @@
           "ruleIndex": 3,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "flower (CVE-2022-30034)\n\nSeverity: HIGH\nCVSS2 Score: 7.5\nCVSS3 Score: 8.6\nInstalled version: 1.0.0\nFixed version:1.2.0"
+            "text": "flower (CVE-2022-30034)\n\nSeverity: HIGH\nCVSS2 Score: 7.5\nCVSS3 Score: 8.6\nInstalled version: 1.0.0\nFixed version:1.2.0"
           },
           "locations": [
             {
@@ -296,8 +292,7 @@
           "ruleIndex": 4,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "future (CVE-2022-40899)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 0.18.2\nFixed version:0.18.3"
+            "text": "future (CVE-2022-40899)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 0.18.2\nFixed version:0.18.3"
           },
           "locations": [
             {
@@ -317,8 +312,7 @@
           "ruleIndex": 5,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "joblib (CVE-2022-21797)\n\nSeverity: CRITICAL\nCVSS3 Score: 9.8\nInstalled version: 1.1.0\nFixed version:1.2.0"
+            "text": "joblib (CVE-2022-21797)\n\nSeverity: CRITICAL\nCVSS3 Score: 9.8\nInstalled version: 1.1.0\nFixed version:1.2.0"
           },
           "locations": [
             {
@@ -338,8 +332,7 @@
           "ruleIndex": 6,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "lxml (CVE-2022-2309)\n\nSeverity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 4.8.0\nFixed version:4.9.1"
+            "text": "lxml (CVE-2022-2309)\n\nSeverity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 4.8.0\nFixed version:4.9.1"
           },
           "locations": [
             {
@@ -359,8 +352,7 @@
           "ruleIndex": 7,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "mako (CVE-2022-40023)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 1.2.0\nFixed version:1.2.2"
+            "text": "mako (CVE-2022-40023)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 1.2.0\nFixed version:1.2.2"
           },
           "locations": [
             {
@@ -380,8 +372,7 @@
           "ruleIndex": 8,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "pillow (CVE-2022-45198)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 9.0.1\nFixed version:9.2.0"
+            "text": "pillow (CVE-2022-45198)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 9.0.1\nFixed version:9.2.0"
           },
           "locations": [
             {
@@ -401,8 +392,7 @@
           "ruleIndex": 9,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "pillow (CVE-2022-45199)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 9.0.1\nFixed version:9.3.0"
+            "text": "pillow (CVE-2022-45199)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 9.0.1\nFixed version:9.3.0"
           },
           "locations": [
             {
@@ -422,8 +412,7 @@
           "ruleIndex": 10,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "pyjwt (CVE-2022-29217)\n\nSeverity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 2.1.0\nFixed version:2.4.0"
+            "text": "pyjwt (CVE-2022-29217)\n\nSeverity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 2.1.0\nFixed version:2.4.0"
           },
           "locations": [
             {
@@ -443,8 +432,7 @@
           "ruleIndex": 11,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "setuptools (CVE-2022-40897)\n\nSeverity: HIGH\nCVSS3 Score: 5.9\nInstalled version: 59.6.0\nFixed version:65.5.1"
+            "text": "setuptools (CVE-2022-40897)\n\nSeverity: HIGH\nCVSS3 Score: 5.9\nInstalled version: 59.6.0\nFixed version:65.5.1"
           },
           "locations": [
             {
@@ -464,8 +452,7 @@
           "ruleIndex": 12,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "ujson (CVE-2022-31116)\n\nSeverity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 5.1.0\nFixed version:5.4.0"
+            "text": "ujson (CVE-2022-31116)\n\nSeverity: HIGH\nCVSS2 Score: 5\nCVSS3 Score: 7.5\nInstalled version: 5.1.0\nFixed version:5.4.0"
           },
           "locations": [
             {
@@ -485,8 +472,7 @@
           "ruleIndex": 13,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "werkzeug (CVE-2022-29361)\n\nSeverity: CRITICAL\nCVSS2 Score: 7.5\nCVSS3 Score: 9.8\nInstalled version: 2.0.3\nFixed version:2.1.1"
+            "text": "werkzeug (CVE-2022-29361)\n\nSeverity: CRITICAL\nCVSS2 Score: 7.5\nCVSS3 Score: 9.8\nInstalled version: 2.0.3\nFixed version:2.1.1"
           },
           "locations": [
             {
@@ -506,8 +492,7 @@
           "ruleIndex": 14,
           "kind": "fail",
           "message": {
-            "text": "",
-            "markdown": "werkzeug (CVE-2023-25577)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 2.0.3\nFixed version:2.2.3"
+            "text": "werkzeug (CVE-2023-25577)\n\nSeverity: HIGH\nCVSS3 Score: 7.5\nInstalled version: 2.0.3\nFixed version:2.2.3"
           },
           "locations": [
             {
