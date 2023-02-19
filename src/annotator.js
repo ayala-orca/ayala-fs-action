@@ -63,7 +63,7 @@ function extractAnnotations(results) {
 function annotateChangesWithResults(results) {
     const annotations = extractAnnotations(results);
     annotations.forEach((annotation) => {
-         console.log(annotation.title)
+         console.log(annotation.file)
         let annotationProperties = {
             title: annotation.title,
             startLine: annotation.startLine,
