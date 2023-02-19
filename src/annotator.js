@@ -1,12 +1,11 @@
 const core = require("@actions/core");
 
-function getSecretDetails(controlResults, file) {
-    let title = controlResults.catalog_control["title"];
-    let details = `${title} secret was found`
-    return details
+function getSecretDetails(secretResults) {
+    let title = secretResults.catalog_control["title"];
+    return `${title} secret was found`
 }
 
-function getVulnDetails(controlResults, vulnerability) {
+function getVulnDetails(vulnerability) {
     let scoreMessage = '';
     if (vulnerability.cvss_v2_score) {
         scoreMessage += `CVSS2 Score: ${vulnerability.cvss_v2_score}\n`;
@@ -19,43 +18,43 @@ function getVulnDetails(controlResults, vulnerability) {
     return `Severity: ${vulnerability.severity}\n${scoreMessage}Installed version: ${installed}\nFixed version:${fixed}`
 }
 
-function extractSecretFinding(controlResults, annotations) {
-    for (const finding of controlResults.findings) {
+function extractSecretFinding(secretResults, annotations) {
+    for (const finding of secretResults.findings) {
         annotations.push({
             file: finding["file_name"],
             startLine: finding.position["start_line"],
             endLine: finding.position["end_line"],
-            priority: controlResults["priority"],
-            status: controlResults["status"],
-            title: `[${controlResults["priority"]}] controlResults.catalog_control["title"]`,
-            details: getSecretDetails(controlResults, finding),
+            priority: secretResults["priority"],
+            status: secretResults["status"],
+            title: `[${secretResults["priority"]}] controlResults.catalog_control["title"]`,
+            details: getSecretDetails(secretResults),
         });
     }
 }
 
-function extractVulnerability(controlResults, annotations) {
-    for (const vulnerability of controlResults.vulnerabilities) {
+function extractVulnerability(results, annotations) {
+    for (const vulnerability of results.vulnerabilities) {
         annotations.push({
             // vulnerability does not return real path on github, so we need to concatenate path given by github
-            file: `${process.env.INPUT_PATH}/${controlResults["target"]}`,
+            file: `${process.env.INPUT_PATH}/${results["target"]}`,
             // currently no start line and end line for vulnerabilities available
             startLine: 1,
             endLine: 1,
             priority: vulnerability["severity"],
             status: vulnerability.status_summary["status"],
             title: `${vulnerability["pkg_name"]} (${vulnerability["vulnerability_id"]})`,
-            details: getVulnDetails(controlResults, vulnerability),
+            details: getVulnDetails(results, vulnerability),
         });
     }
 }
 
 function extractAnnotations(results) {
     let annotations = [];
-    for (const controlResults of results.results.secret_detection.results) {
-        extractSecretFinding(controlResults, annotations);
+    for (const secretResults of results.results.secret_detection.results) {
+        extractSecretFinding(secretResults, annotations);
     }
-    for (const controlResults of results.vulnerabilities) {
-        extractVulnerability(controlResults, annotations);
+    for (const vulnResults of results.vulnerabilities) {
+        extractVulnerability(vulnResults, annotations);
     }
     return annotations;
 }
