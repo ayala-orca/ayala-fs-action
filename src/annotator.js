@@ -33,6 +33,7 @@ function extractSecretFinding(secretResults, annotations) {
 }
 
 function extractVulnerability(results, annotations) {
+    console.log(process.env)
     for (const vulnerability of results.vulnerabilities) {
         annotations.push({
             // vulnerability does not return real path on github, so we need to concatenate path given by github
