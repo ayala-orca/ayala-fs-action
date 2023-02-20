@@ -12,7 +12,7 @@
               "id": "CVE-2022-36359-poetry",
               "name": "poetry (CVE-2022-36359)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-36359)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-36359) at samples/poetry.lock installed version 3.2.14"
@@ -25,7 +25,7 @@
               "id": "CVE-2022-41323-poetry",
               "name": "poetry (CVE-2022-41323)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-41323)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-41323) at samples/poetry.lock installed version 3.2.14"
@@ -38,7 +38,7 @@
               "id": "CVE-2023-23969-poetry",
               "name": "poetry (CVE-2023-23969)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2023-23969)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2023-23969) at samples/poetry.lock installed version 3.2.14"
@@ -51,7 +51,7 @@
               "id": "CVE-2022-30034-poetry",
               "name": "poetry (CVE-2022-30034)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-30034)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-30034) at samples/poetry.lock installed version 1.0.0"
@@ -64,7 +64,7 @@
               "id": "CVE-2022-40899-poetry",
               "name": "poetry (CVE-2022-40899)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-40899)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-40899) at samples/poetry.lock installed version 0.18.2"
@@ -77,7 +77,7 @@
               "id": "CVE-2022-21797-poetry",
               "name": "poetry (CVE-2022-21797)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-21797)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-21797) at samples/poetry.lock installed version 1.1.0"
@@ -90,7 +90,7 @@
               "id": "CVE-2022-2309-poetry",
               "name": "poetry (CVE-2022-2309)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-2309)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-2309) at samples/poetry.lock installed version 4.8.0"
@@ -103,7 +103,7 @@
               "id": "CVE-2022-40023-poetry",
               "name": "poetry (CVE-2022-40023)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-40023)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-40023) at samples/poetry.lock installed version 1.2.0"
@@ -116,7 +116,7 @@
               "id": "CVE-2022-45198-poetry",
               "name": "poetry (CVE-2022-45198)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-45198)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-45198) at samples/poetry.lock installed version 9.0.1"
@@ -129,7 +129,7 @@
               "id": "CVE-2022-45199-poetry",
               "name": "poetry (CVE-2022-45199)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-45199)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-45199) at samples/poetry.lock installed version 9.0.1"
@@ -142,7 +142,7 @@
               "id": "CVE-2022-29217-poetry",
               "name": "poetry (CVE-2022-29217)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-29217)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-29217) at samples/poetry.lock installed version 2.1.0"
@@ -155,7 +155,7 @@
               "id": "CVE-2022-40897-poetry",
               "name": "poetry (CVE-2022-40897)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-40897)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-40897) at samples/poetry.lock installed version 59.6.0"
@@ -168,7 +168,7 @@
               "id": "CVE-2022-31116-poetry",
               "name": "poetry (CVE-2022-31116)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-31116)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-31116) at samples/poetry.lock installed version 5.1.0"
@@ -181,7 +181,7 @@
               "id": "CVE-2022-29361-poetry",
               "name": "poetry (CVE-2022-29361)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2022-29361)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2022-29361) at samples/poetry.lock installed version 2.0.3"
@@ -194,13 +194,26 @@
               "id": "CVE-2023-25577-poetry",
               "name": "poetry (CVE-2023-25577)",
               "shortDescription": {
-                "text": "poetry"
+                "text": "poetry (CVE-2023-25577)"
               },
               "fullDescription": {
                 "text": "poetry vulnerability (CVE-2023-25577) at samples/poetry.lock installed version 2.0.3"
               },
               "defaultConfiguration": {
                 "level": "warning"
+              }
+            },
+            {
+              "id": "aws_access_key_id-AWS Access Key ID",
+              "name": "aws_access_key_id (AWS Access Key ID)",
+              "shortDescription": {
+                "text": "AWS Access Key ID"
+              },
+              "fullDescription": {
+                "text": "AWS Access Key ID secret was found"
+              },
+              "defaultConfiguration": {
+                "level": "error"
               }
             }
           ]
@@ -499,6 +512,26 @@
               "physicalLocation": {
                 "artifactLocation": {
                   "uri": "samples/poetry.lock"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "aws_access_key_id-AWS Access Key ID",
+          "ruleIndex": 15,
+          "kind": "fail",
+          "message": {
+            "text": "AWS Access Key ID secret was found"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/samples/my-secret.tf"
                 },
                 "region": {
                   "startLine": 1
